@@ -1,0 +1,10 @@
+<resources>
+
+          <style name="Theme.MyAppTheme" parent="@style/Theme.AppCompat.Light">
+            <item name="android:actionBarStyle">@style/ActionBar.Solid.MyAppTheme</item>
+        </style>
+
+        <style name="ActionBar.Solid.MyAppTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+            <item name="android:background">@color/colorAccent</item>
+        </style>
+</resources>

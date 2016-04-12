@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/companyID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="companyID"
+        android:textColor="#ffaaaa"
+        />
+
+    <TextView
+        android:id="@+id/comapnyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="comapnyName"
+        android:textColor="#ffaaaa" />
+
+    <TextView
+        android:id="@+id/companyOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="companyOwner"
+        android:textColor="#ffaaaa" />
+
+    <TextView
+        android:id="@+id/companyStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="companyStartDate"
+        android:textColor="#ffaaaa" />
+
+    <TextView
+        android:id="@+id/companyDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="companyDescription"
+        android:textColor="#ffaaaa" />
+
+    <TextView
+        android:id="@+id/companyDepartments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="companyDepartments"
+        android:textColor="#ffaaaa" />
+</LinearLayout>
+
+

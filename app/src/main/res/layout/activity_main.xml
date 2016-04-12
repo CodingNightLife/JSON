@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+	    <EditText
+        android:id="@+id/search"
+        android:hint="Filter By Departments"
+            android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <requestFocus />
+    </EditText>
+	     <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:padding="2dp"
+             android:visibility="gone"
+        android:queryHint="Search...." />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@android:id/empty"
+        android:text="No Results Found"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
+
+
