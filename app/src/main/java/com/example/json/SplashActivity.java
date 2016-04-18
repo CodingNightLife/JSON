@@ -100,7 +100,7 @@ ImageView imgLogo;
                 if (ni.isConnected())
                     haveConnectedWifi = true;
 
-           else if (ni.getTypeName().equalsIgnoreCase("MOBILE"))
+            if (ni.getTypeName().equalsIgnoreCase("MOBILE"))
                 if (ni.isConnected()) {
                     haveConnectedMobile = true;
                 }
